@@ -1,6 +1,7 @@
 const express = require("express");
 const dns = require("dns");
 require("dotenv").config();
+const cors = require("cors");
 const connectDB = require("./config/db");
 const userRoutes = require("./routes/userRoutes");
 const sellerRoutes = require("./routes/sellerRoutes");
@@ -16,6 +17,15 @@ connectDB();
 
 const app = express();
 app.use(express.json());
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173",
+      "https://anshusingh2910.github.io"
+    ],
+    credentials: true,
+  })
+);
 
 
 app.use("/user", userRoutes);
