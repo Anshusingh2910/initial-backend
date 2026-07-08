@@ -1,4 +1,11 @@
 {
+  "name": "initial-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cloudinary": "^1.41.3",
@@ -9,7 +16,6 @@
     "modules": "^0.4.0",
     "mongoose": "^9.7.2",
     "multer": "^2.2.0",
-    "multer-storage-cloudinary": "^4.0.0",
-    "node": "^24.18.0"
+    "multer-storage-cloudinary": "^4.0.0"
   }
 }
