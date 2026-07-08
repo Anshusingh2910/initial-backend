@@ -9,7 +9,7 @@ const adminRoutes = require("./routes/adminRoutes");
 const productRoutes = require("./routes/productRoutes");
 const cartRoutes = require("./routes/cartRoutes")
 const orderRoutes = require("./routes/orderRoutes");
-const errorMiddleware = require("./middleware/errorMiddleware");
+const errorMiddleware = require("./middleware/errormiddleware");
 
 dns.setServers(["1.1.1.1", "8.8.8.8"]);
 
