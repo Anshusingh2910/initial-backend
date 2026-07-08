@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express.Router();
-const { auth, roleAuth, upload, } = require("../middleware/AuthMiddleware");
+const { auth, roleAuth, upload, } = require("../middleware/Authmiddleware");
 
 const {
   addProduct,
