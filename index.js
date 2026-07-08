@@ -3,7 +3,7 @@ const dns = require("dns");
 require("dotenv").config();
 const cors = require("cors");
 const connectDB = require("./config/db");
-const userRoutes = require("./routes/userRoutes");
+const userRoutes = require("./routes/UserRoutes");
 const sellerRoutes = require("./routes/sellerRoutes");
 const adminRoutes = require("./routes/adminRoutes");
 const productRoutes = require("./routes/productRoutes");
