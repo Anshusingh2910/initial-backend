@@ -1,5 +1,5 @@
 const express = require("express");
-const { auth,roleAuth} = require("../middleware/authMiddleware");
+const { auth,roleAuth} = require("../middleware/AuthMiddleware");
 
 const {
   addToCart,

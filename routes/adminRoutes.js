@@ -5,7 +5,7 @@ const {
   auth,
   roleAuth,
   adminTokenAuth,
-} = require("../middleware/authMiddleware");
+} = require("../middleware/AuthMiddleware");
 
 const {
   register,
